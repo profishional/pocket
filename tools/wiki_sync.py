@@ -52,7 +52,7 @@ def categorize_paths() -> Dict[str, List[DocumentationFile]]:
 
     return sidebar
 
-
+# TODO fix
 def write_sidebar_file(sidebar: Dict[str, List[DocumentationFile]]) -> None:
     sidebar_format = "'''Contents'''\n"
     sidebar_format += "*'''[[ Home | Home ]]'''\n"
